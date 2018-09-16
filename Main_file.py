@@ -3,3 +3,14 @@
 #  - Mathijs maakt een functie aan die het volgende doet: output = input^2+10
 #  - Stijn maakt een functie aan die het volgende doet: output = sqrt(input-10)
 
+import TestfilePycharm
+from Stijn_lib import stijn_func
+
+Input = 1234
+
+print(stijn_func(TestfilePycharm.add_10(Input)))
+
+
+
+
+
