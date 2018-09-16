@@ -4,11 +4,11 @@
 #  - Stijn maakt een functie aan die het volgende doet: output = sqrt(input-10)
 
 import TestfilePycharm
-import Stijn_lib
+from Stijn_lib import stijn_func
 
 Input = 1234
 
-print(stijn_func(add_10(Input)))
+print(stijn_func(TestfilePycharm.add_10(Input)))
 
 
 
